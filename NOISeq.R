@@ -7,7 +7,7 @@ library("NOISeq")
 #Define the conditions
 mfactors <- data.frame(transcript =c("C","T1","T2","T3","T4","T5"))
 
-#assign the conditions to the saples
+#assign the conditions to the samples
 mydata <- readData(data=getData, factors=mfactors)
 
 #Choosen rpkm value as a normalised value, pnr is Percentage of the total reads used to simulated each sample when no replicates are available. By default, pnr = 0.2.Number of samples to simulate for each condition 
